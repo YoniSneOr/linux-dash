@@ -12,4 +12,3 @@ RUN    chmod +x /opt/linux-dash/start_server.sh && \
     cd linux-dash  && npm install
 EXPOSE 80
 ENTRYPOINT ["/opt/linux-dash/start_server.sh"]
-~
