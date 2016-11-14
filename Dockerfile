@@ -2,10 +2,9 @@
 From centos:6
 
 ADD linux-dash /opt/linux-dash
-ADD hellow_World.sh  /tmp
+ADD start_server.sh  /opt
 
-RUN mv /tmp/hellow_World.sh /opt && \
-    chmod +x /opt/hellow_World.sh && \
+RUN    chmod +x /opt/start_server.sh && \
     cd /opt/ && \
     yum install -y mlocate net-tools wget curl gcc-c++ make git python  && \
     curl -sL https://rpm.nodesource.com/setup_6.x |  bash - && \
@@ -13,4 +12,4 @@ RUN mv /tmp/hellow_World.sh /opt && \
     yum install -y nodejs && \
     cd linux-dash  && npm install
 EXPOSE 80
-ENTRYPOINT ["/opt/hellow_World.sh"]
+ENTRYPOINT ["/opt/start_server.sh"]
