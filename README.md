@@ -2,6 +2,11 @@
 <h1 align="center">
   linux-dash
 </h1>
+<br/>
+<h1 align="center">
+ New!!! Docker Support
+</h1>
+<a href="#Building Docker image">
 
 <p align="center">
   A simple, low-overhead web dashboard for Linux
