@@ -6,21 +6,7 @@
 <h1 align="center">
  New!!! Docker Support!!!
 </h1>
-<p align="center">
-  <strong>
-    
-    <a href="#Building Docker image"><i>Building Docker image</i></a> &nbsp;|&nbsp;
-    <a href="#Runining Container">
-      <i>Runining Container</i></a> &nbsp;|&nbsp;
-  </strong>
-</p>
-<br/>
-
-## Building Docker image
-<p align="center">
-  Copy Dockerfile from linux-dash directory to one directory up.
-</p>
-
+       
 <p align="center">
 <small>Check out what's coming in <a href="https://linux-dash.github.io/docs/#getting-started">Linux Dash v2.0</a>: in Fall 2016.</small>
 </p>
@@ -32,6 +18,9 @@
     <a href="#installation">
       <i>Installation</i></a> &nbsp;|&nbsp;
     <a href="#support"><i>Support</i></a>
+    <a href="#Building Docker image"><i>Building Docker image</i></a> &nbsp;|&nbsp;
+    <a href="#Runining Container">
+      <i>Runining Container</i></a> &nbsp;|&nbsp;
   </strong>
 </p>
 
@@ -54,7 +43,10 @@
 </p>
 
 <br/>
-
+## Building Docker image
+<p align="center">
+  Copy Dockerfile from linux-dash directory to one directory up.
+</p>
 ## Features
 * A beautiful, simple web-based dashboard for monitoring a linux server
 * Only ~1MB on disk! *(.git removed)*
