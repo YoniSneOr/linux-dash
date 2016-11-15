@@ -44,9 +44,7 @@
 
 <br/>
 ## Building Docker image
-<p align="center">
-  Copy Dockerfile from linux-dash directory to one directory up.
-</p>
+
 ## Features
 * A beautiful, simple web-based dashboard for monitoring a linux server
 * Only ~1MB on disk! *(.git removed)*
