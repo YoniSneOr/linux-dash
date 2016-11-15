@@ -45,11 +45,17 @@
 <br/>
 ## Building Docker Image
 1.Copy Dockerfile from the linux-dash directory one directory up
+<br/>
 2. run the following command: ( replace the proxy name, proxy port and imagename )
+<br/>
    docker build --build-arg http_proxy="http://proxy.example.com:8080" --build-arg https_proxy="http://wproxy.example.com:8080" -t <imagename> .
+<br/>
 ## running Docker Container
+<br/>
 run the following command:
+<br/>
   docker run -d --name=linux-dash -p 80:80 <imagename>:latest
+<br/>
 ## Features
 * A beautiful, simple web-based dashboard for monitoring a linux server
 * Only ~1MB on disk! *(.git removed)*
