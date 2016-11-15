@@ -4,12 +4,21 @@
 </h1>
 <br/>
 <h1 align="center">
- New!!! Docker Support
+ New!!! Docker Support!!!
 </h1>
-<a href="#Building Docker image">
-
 <p align="center">
-  A simple, low-overhead web dashboard for Linux
+  <strong>
+    
+    <a href="#Building Docker image"><i>Building Docker image</i></a> &nbsp;|&nbsp;
+    <a href="#Runining Container">
+      <i>Runining Container</i></a> &nbsp;|&nbsp;
+  </strong>
+</p>
+<br/>
+
+## Building Docker image
+<p align="center">
+  Copy Dockerfile from linux-dash directory to one directory up.
 </p>
 
 <p align="center">
