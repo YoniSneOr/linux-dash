@@ -19,8 +19,8 @@
       <i>Installation</i></a> &nbsp;|&nbsp;
     <a href="#support"><i>Support</i></a>
     <a href="#BuildingDockerimage"><i>Building Docker image</i></a> &nbsp;|&nbsp;
-    <a href="#RunningContainer">
-      <i>Runining Container</i></a> &nbsp;|&nbsp;
+    <a href="#RunningContainer"><i>Running Container</i></a> &nbsp;|&nbsp;
+    
   </strong>
 </p>
 
@@ -44,13 +44,13 @@
 
 <br/>
 ## Building Docker Image
-1.Copy Dockerfile from the linux-dash directory one directory up
+1. Copy Dockerfile from the linux-dash directory one directory up
 <br/>
 2. run the following command: ( replace the proxy name, proxy port and imagename )
 <br/>
    docker build --build-arg http_proxy="http://proxy.example.com:8080" --build-arg https_proxy="http://wproxy.example.com:8080" -t <imagename> .
 <br/>
-## running Docker Container
+#Running Container
 <br/>
 run the following command:
 <br/>
