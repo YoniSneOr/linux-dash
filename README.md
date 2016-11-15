@@ -43,9 +43,14 @@
 </p>
 
 ## Building Docker Image
-1. Copy Dockerfile from the linux-dash directory one directory up
+1. Clone the git repo
+```sh
+git clone https://github.com/YoniSneOr/linux-dash.git
+```
 
-2. run the following command: ( replace the proxy name, proxy port and imagename )
+3. Copy Dockerfile from the linux-dash directory one directory up
+
+3. run the following command: ( replace the proxy name, proxy port and imagename )
 <br/>
    docker build --build-arg http_proxy="http://proxy.example.com:8080" --build-arg https_proxy="http://wproxy.example.com:8080" -t imagename .
 
