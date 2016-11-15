@@ -49,7 +49,7 @@
 <br/>
    docker build --build-arg http_proxy="http://proxy.example.com:8080" --build-arg https_proxy="http://wproxy.example.com:8080" -t imagename .
 
-## RunningContainer
+## Running Container
 
 1. run the following command: docker run -d --name=linux-dash -p 80:80 imagename:latest
 
