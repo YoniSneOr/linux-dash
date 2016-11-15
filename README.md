@@ -48,13 +48,13 @@
 <br/>
 2. run the following command: ( replace the proxy name, proxy port and imagename )
 <br/>
-   docker build --build-arg http_proxy="http://proxy.example.com:8080" --build-arg https_proxy="http://wproxy.example.com:8080" -t <imagename> .
+   docker build --build-arg http_proxy="http://proxy.example.com:8080" --build-arg https_proxy="http://wproxy.example.com:8080" -t imagename .
 <br/>
-#Running Container
+## RunningContainer
 <br/>
 run the following command:
 <br/>
-  docker run -d --name=linux-dash -p 80:80 <imagename>:latest
+  docker run -d --name=linux-dash -p 80:80 imagename:latest
 <br/>
 ## Features
 * A beautiful, simple web-based dashboard for monitoring a linux server
