@@ -18,8 +18,8 @@
     <a href="#installation">
       <i>Installation</i></a> &nbsp;|&nbsp;
     <a href="#support"><i>Support</i></a>
-    <a href="#Building Docker image"><i>Building Docker image</i></a> &nbsp;|&nbsp;
-    <a href="#Runining Container">
+    <a href="#BuildingDockerimage"><i>Building Docker image</i></a> &nbsp;|&nbsp;
+    <a href="#RunningContainer">
       <i>Runining Container</i></a> &nbsp;|&nbsp;
   </strong>
 </p>
@@ -43,7 +43,7 @@
 </p>
 
 <br/>
-## Building Docker image
+## BuildingDockerimage
 
 ## Features
 * A beautiful, simple web-based dashboard for monitoring a linux server
