@@ -43,8 +43,8 @@
 </p>
 
 <br/>
-## BuildingDockerimage
-
+## Building Docker Image
+1.Copy Dockerfile form the linux-dash directory one directory up
 ## Features
 * A beautiful, simple web-based dashboard for monitoring a linux server
 * Only ~1MB on disk! *(.git removed)*
